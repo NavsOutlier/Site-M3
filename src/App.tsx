@@ -46,8 +46,8 @@ const App = () => {
       desc: "Recomendamos a **Malha 2\" (50mm)** com **Fio 12 (2,77mm)**. É a opção mais robusta contra invasões e cortes.",
       tag: "ALTA DENSIDADE",
       cases: [
-        { img: "https://images.unsplash.com/photo-1590674899484-13da0d1b58f5?auto=format&fit=crop&q=80&w=1000", owner: "Ricardo S.", location: "Sorocaba / SP" },
-        { img: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&q=80&w=1000", owner: "Construtora Alfa", location: "Barueri / SP" }
+        { img: "/Telas alambrado.png", owner: "Ricardo S.", location: "Sorocaba / SP" },
+        { img: "/Telas alambrado.png", owner: "Construtora Alfa", location: "Barueri / SP" }
       ]
     },
     {
@@ -57,8 +57,8 @@ const App = () => {
       desc: "A **Malha 3\" (76mm)** com **Fio 14 (2,11mm)** oferece o equilíbrio perfeito entre visibilidade, proteção e economia.",
       tag: "SÉRIE OURO",
       cases: [
-        { img: "https://images.unsplash.com/photo-1510627489930-0c50697b31ff?auto=format&fit=crop&q=80&w=1000", owner: "Ana Paula", location: "Indaiatuba / SP" },
-        { img: "https://images.unsplash.com/photo-1542662565-7e4b66bae529?auto=format&fit=crop&q=80&w=1000", owner: "Residencial Viver", location: "Campinas / SP" }
+        { img: "/Telas alambrado.png", owner: "Ana Paula", location: "Indaiatuba / SP" },
+        { img: "/Telas alambrado.png", owner: "Residencial Viver", location: "Campinas / SP" }
       ]
     },
     {
@@ -68,8 +68,8 @@ const App = () => {
       desc: "Telas com revestimento em PVC são ideais. Oferecem proteção contra impactos e durabilidade extrema sob sol e chuva.",
       tag: "PROTEÇÃO EXTRA",
       cases: [
-        { img: "https://images.unsplash.com/photo-1459865264687-595d654df77e?auto=format&fit=crop&q=80&w=1000", owner: "Marcos Oliveira", location: "Itu / SP" },
-        { img: "https://images.unsplash.com/photo-1597466765990-64ad1c35dafc?auto=format&fit=crop&q=80&w=1000", owner: "Clube Campestre", location: "Tatuí / SP" }
+        { img: "/Telas alambrado.png", owner: "Marcos Oliveira", location: "Itu / SP" },
+        { img: "/Telas alambrado.png", owner: "Clube Campestre", location: "Tatuí / SP" }
       ]
     }
   ];
@@ -281,7 +281,7 @@ const App = () => {
               whileHover={{ scale: 1.02 }}
             >
               <div className="card-img-wrapper">
-                <img src="/concertinas.png" className="card-img" alt="Concertinas Metaltres" />
+                <img src="/Telas alambrado.png" className="card-img" alt="Concertinas Metaltres" />
               </div>
               <div className="card-content">
                 <span className="card-tag">SEGURANÇA MÁXIMA</span>
@@ -302,7 +302,7 @@ const App = () => {
               whileHover={{ scale: 1.02 }}
             >
               <div className="card-img-wrapper">
-                <img src="/telas.png" className="card-img" alt="Telas Metaltres" />
+                <img src="/Telas alambrado.png" className="card-img" alt="Telas Metaltres" />
               </div>
               <div className="card-content">
                 <span className="card-tag">RESISTÊNCIA INDUSTRIAL</span>
@@ -427,7 +427,7 @@ const App = () => {
                 transition={{ delay: i * 0.1 }}
               >
                 <div className="product-img-box">
-                  <img src="/telas.png" alt="Rolo de Tela" className="product-img" />
+                  <img src="/Telas alambrado.png" alt="Rolo de Tela" className="product-img" />
                 </div>
                 <h3 className="product-title">{prod.title}</h3>
                 <div className="product-price">R${prod.price}</div>
@@ -490,7 +490,7 @@ const App = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1000" alt="Fábrica Metaltres" className="about-img" />
+              <img src="/Telas alambrado.png" alt="Fábrica Metaltres" className="about-img" />
             </motion.div>
 
             <motion.div
