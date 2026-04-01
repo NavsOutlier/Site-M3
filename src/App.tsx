@@ -167,7 +167,7 @@ const App = () => {
               >
                 PREÇO DE FÁBRICA <ChevronRight size={18} />
               </motion.a>
-              <a href="#precos" className="btn btn-outline" style={{ border: '2px solid white' }}>
+              <a href="#precos" className="btn btn-outline" style={{ border: '2px solid var(--primary)' }}>
                 VER PREÇOS
               </a>
             </div>
@@ -318,7 +318,7 @@ const App = () => {
       </section>
 
       {/* 4. Selection Guide (4th Fold) */}
-      <section id="guia" className="section" style={{ background: 'linear-gradient(180deg, var(--bg-dark) 0%, #111 100%)' }}>
+      <section id="guia" className="section" style={{ background: 'linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-dark) 100%)' }}>
         <div className="page-container">
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <span style={{ color: 'var(--primary)', fontWeight: '800', fontSize: '0.8rem', letterSpacing: '0.2rem', textTransform: 'uppercase' }}>Qual a tela ideal?</span>
@@ -343,7 +343,7 @@ const App = () => {
                   <span style={{ fontSize: '0.7rem', color: 'var(--primary)', fontWeight: '700' }}>{item.tag}</span>
                   <h3 style={{ fontSize: '2rem', margin: '0.5rem 0 0.5rem' }}>{item.title}</h3>
                   <p style={{ color: 'var(--text-dim)', fontSize: '1rem', marginBottom: '1.2rem', fontWeight: '600' }}>{item.subtitle}</p>
-                  <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: '#ccc' }} dangerouslySetInnerHTML={{ __html: item.desc }}></p>
+                  <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--text-dim)' }} dangerouslySetInnerHTML={{ __html: item.desc }}></p>
                 </motion.div>
 
                 <motion.div
@@ -523,7 +523,7 @@ const App = () => {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="section" style={{ backgroundColor: '#050505' }}>
+      <section id="faq" className="section" style={{ backgroundColor: 'var(--bg-dark)' }}>
         <div className="page-container">
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <h2 className="section-title">PERGUNTAS <span style={{ color: 'var(--primary)' }}>FREQUENTES</span></h2>
@@ -562,7 +562,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline"
-            style={{ backgroundColor: 'black', color: 'white', border: '2px solid var(--primary)' }}
+            style={{ backgroundColor: 'var(--bg-surface)', color: 'var(--text)', border: '2px solid var(--primary)' }}
           >
             <MessageCircle /> CHAT VIA WHATSAPP
           </motion.a>
@@ -597,21 +597,21 @@ const App = () => {
               <div className="footer-contact-item">
                 <Phone size={20} />
                 <div>
-                  <div style={{ fontWeight: 700, color: 'white' }}>Telefone / WhatsApp</div>
+                  <div style={{ fontWeight: 700, color: 'var(--text)' }}>Telefone / WhatsApp</div>
                   <div>(11) 9999-9999</div>
                 </div>
               </div>
               <div className="footer-contact-item">
                 <Mail size={20} />
                 <div>
-                  <div style={{ fontWeight: 700, color: 'white' }}>E-mail de Vendas</div>
+                  <div style={{ fontWeight: 700, color: 'var(--text)' }}>E-mail de Vendas</div>
                   <div>vendas@metaltres.com.br</div>
                 </div>
               </div>
               <div className="footer-contact-item">
                 <MapPin size={20} />
                 <div>
-                  <div style={{ fontWeight: 700, color: 'white' }}>Centros de Distribuição</div>
+                  <div style={{ fontWeight: 700, color: 'var(--text)' }}>Centros de Distribuição</div>
                   <div>Rio Grande do Sul | Minas Gerais</div>
                 </div>
               </div>
